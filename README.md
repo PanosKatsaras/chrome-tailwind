@@ -1,3 +1,6 @@
+![chrome-clone](https://github.com/user-attachments/assets/01b56bff-1d73-4458-88f9-ef95e6ae2650)
+
+
 ## Chrome Clone Project
 
 This project is a simple Chrome browser clone built using Tailwind CSS for styling, Node.js for backend capabilities, and Live Server for local development and testing. It demonstrates a modern web development stack with a focus on responsive design and functionality.
