@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./src/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.2.96/css/materialdesignicons.min.css">
+    <title>About me</title>
+</head>
+
+<body>
+    <div class="min-w-screen min-h-screen bg-zinc-800 flex items-center justify-center px-5 py-5">
+        <div class=" text-gray-600 text-sm rounded shadow-lg overflow-hidden w-full" style="max-width:34rem">
+            <!-- Header Bar -->
+            <div class="flex bg-gray-400 -mb-3 items-center rounded">
+                <button
+                    class="hover:bg-gray-300 bg-slate-200 pb-1 rounded-lg ml-4 mr-2 mb-2 focus:outline-none w-9 h-7"
+                    style="padding-bottom:5px">
+                    <i class="mdi mdi-chevron-down text-lg text-black"></i>
+                </button>
+                <!-- Left side (New Tab and Close button) -->
+                <div class="flex w-64 bg-slate-200 rounded-t-lg pt-3 pb-3 px-3 mt-1">
+                    <img src="images/chrome-logo.png" alt="Chrome" class="mt-3 mr-2 transform -translate-y-1/2 w-5 h-5">
+
+                    <div class="flex-1 text-base truncate">
+                        New Tab
+                    </div>
+                    <div class="w-5">
+                        <button class="hover:bg-gray-300 focus:outline-none w-6 h-6 rounded-full leading-6 text-center">
+                            <i class="mdi mdi-close text-lg text-black"></i>
+                        </button>
+                    </div>
+                </div>
+                <button class="pb-3 hover:text-black pl-2 pr-16 py-2">
+                    <i class="mdi mdi-plus text-lg"></i>
+                </button>
+
+                <!-- Right side (Minimize, Maximize, Close buttons) -->
+                <div class="flex items-center pl-20 1 pt-1 py-1 ">
+                    <button class="px-3 py-1 pb-3 hover:text-black">
+                        <i class="mdi mdi-window-minimize text-lg"></i>
+                    </button>
+                    <button class="px-3 py-1 pb-3 hover:text-black">
+                        <i class="mdi mdi-checkbox-blank-outline text-lg"></i>
+                    </button>
+                    <button class="px-3 py-1 pb-3 hover:text-black">
+                        <i class="mdi mdi-close text-lg"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Main Body (Search, Navigation, and Profile) -->
+            <div class="bg-slate-200 pt-3 pb-3">
+                <div class="flex items-center">
+                    <div class="w-10 pl-4 leading-none">
+                        <button class="text-gray-400 focus:outline-none">
+                            <i class="mdi mdi-arrow-left text-xl"></i>
+                        </button>
+                    </div>
+                    <div class="w-10 pl-2 leading-none">
+                        <button class="text-gray-400 focus:outline-none">
+                            <i class="mdi mdi-arrow-right text-xl"></i>
+                        </button>
+                    </div>
+                    <div class="w-10 leading-none">
+                        <button class="text-gray-900 focus:outline-none">
+                            <i class="mdi mdi-refresh text-xl"></i>
+                        </button>
+                    </div>
+
+                    <div class="flex-1 pr-4 relative">
+                        <div class="relative">
+                            <img src="images/chrome_g.png" alt="Chrome"
+                                class="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5">
+                            <input type="text"
+                                class="bg-white focus:outline pl-10 pr-10 py-2 rounded-full w-full text-gray-800"
+                                placeholder="Search Google or type a URL">
+                            <i
+                                class="mdi mdi-star-outline absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-400 hover:bg-gray-200 cursor-pointer rounded-full"></i>
+                        </div>
+                    </div>
+                    <div class="w-8 leading-none">
+                        <button class="hover:text-gray-900 focus:outline-none">
+                            <img src="images/user-logo.jpg" alt="" class="w-5 rounded-full">
+                        </button>
+                    </div>
+                    <div class="w-8 leading-none">
+                        <button class="hover:text-gray-900 focus:outline-none">
+                            <i class="mdi mdi-dots-vertical text-xl"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="px-8 py-6">
+                    <p class="text-fuchsia-500 font-medium">def <span
+                            class="text-sky-500 font-medium">about_me</span>
+                            <span class="text-yellow-500"> ( )</span><span class="text-gray-700">:</span>
+                    </p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                            class="text-fuchsia-500 font-medium">return</span>&nbsp; {</p>
+                    <p class="text-gray-700 font-semibold">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name": <span
+                            class="text-orange-400"> "Panos Katsaras"</span>,</p>
+                    <p class="text-gray-700 font-semibold">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"position": <span
+                            class="text-orange-400"> "Full-Stack Developer"</span>,</p>
+                    <p class="text-gray-700 font-semibold">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"linkedin": <span
+                            class="text-orange-400"> "<a href="https://www.linkedin.com/in/panos-katsaras"
+                                target="_blank"
+                                class="text-orange-400 hover:underline focus:border-none">https://www.linkedin.com/in/panos-katsaras</a>"</span>
+                    </p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
