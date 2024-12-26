@@ -3,8 +3,7 @@
 
 ## Chrome Clone Project
 
-This project is a simple Chrome browser clone built using Tailwind CSS for styling, Node.js for backend capabilities, and Live Server for local development and testing. It demonstrates a modern web development stack with a focus on responsive design and functionality.
-
+This project is a simple Chrome browser clone built using Tailwind CSS for styling, Node.js for backend capabilities, and Live Server for local development and testing.
 # Features
 
 Responsive Design: Built with Tailwind CSS, ensuring the application looks great on all devices.
